@@ -17,20 +17,15 @@ is published as an anonymous resource.
 ## How to run
 
 ### Environment
-We provide a Dynamic Library， It is compiled in the environment we use TITAN RTX, Ubuntu16.04. Docker or installing the same CUDA and OpenCV version would be necessary.
-
-```shell
-python=3.8
-pytorch=1.10.1
-torchvision=0.11.2
-opencv=3.4.12
-cuda=10.2
-cudnn=7.6.5
-```
+We provide the optimized Dynamic Library of Semi-Global Matching (SGM) of our implementation. To run it properly, installing the environments with the same version as ours would be necessary.
+- GPU: TITAN RTX 
+- opencv=3.4.12
+- cuda=10.2
+- cudnn=7.6.5
 
 ### Preparation
 ```shell
-conda install pytorch torchvision cudatoolkit
+conda install pytorch=1.10.1 torchvision=0.11.2 cudatoolkit=10.2
 pip install spconv-cu102
 cd utils/iou3d_nms
 python setup.py develop
