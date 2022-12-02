@@ -14,6 +14,20 @@ is published as an anonymous resource.
 ## Demo video
 [[Video](https://www.youtube.com/watch?v=vVc9HqoUgc4)]
 
+## Dataset preparation
+Download the official [KITTI 3D object detection](http://www.cvlibs.net/datasets/kitti/eval_object.php?obj_benchmark=3d) dataset and organize the downloaded files as follows:
+```
+AR3D
+├── data
+│   ├── kitti
+│   │   ├── ImageSets
+│   │   │   ├── val.txt ...
+│   │   ├── training
+│   │   │   ├── calib /000000.txt ...
+│   │   │   ├── image_2 /000000.png ...
+│   │   │   ├── image_3 /000000.png ...
+```
+
 ## How to run
 
 ### Environment
