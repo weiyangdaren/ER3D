@@ -1,5 +1,5 @@
-# AR3D: An Accurate and Real-time 3D Object Detection Framework for Autonomous Driving
-This is the official repository for ''AR3D: An Accurate and Real-time 3D Object Detection Framework for Autonomous Driving''
+# ER3D: An Accurate and Real-time 3D Object Detection Framework for Autonomous Driving
+This is the official repository for ''ER3D: An Efficient Real-time 3D Object Detection Framework for Autonomous Driving''
 
 Due to the double-blind principle, this repository including the video 
 is published as an anonymous resource.
@@ -17,7 +17,7 @@ is published as an anonymous resource.
 ## Dataset preparation
 Download the official [KITTI 3D object detection](http://www.cvlibs.net/datasets/kitti/eval_object.php?obj_benchmark=3d) dataset and organize the downloaded files as follows:
 ```
-AR3D
+ER3D
 ├── data
 │   ├── kitti
 │   │   ├── ImageSets
