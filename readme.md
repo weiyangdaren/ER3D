@@ -12,7 +12,8 @@ is published as an anonymous resource.
 </div>
 
 ## Demo video
-[[Video]([https://www.youtube.com/watch?v=vVc9HqoUgc4](https://youtu.be/BFXu59NFhRs))]
+[[Video](https://youtu.be/BFXu59NFhRs)]
+
 
 ## Dataset preparation
 Download the official [KITTI 3D object detection](http://www.cvlibs.net/datasets/kitti/eval_object.php?obj_benchmark=3d) dataset and organize the downloaded files as follows:
