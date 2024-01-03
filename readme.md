@@ -1,4 +1,4 @@
-# ER3D: An Accurate and Real-time 3D Object Detection Framework for Autonomous Driving
+# ER3D: An Efficient and Real-time 3D Object Detection Framework for Autonomous Driving
 This is the official repository for ''ER3D: An Efficient Real-time 3D Object Detection Framework for Autonomous Driving''
 
 Due to the double-blind principle, this repository including the video 
